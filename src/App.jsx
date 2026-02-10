@@ -1,8 +1,8 @@
 import React from "react";
-import CitySearch from "./components/CitySearch/CitySearch";
+import { QuizList } from "./components/Quiestions";
 
 function App() {
-  return <CitySearch />;
+  return <QuizList />;
 }
 
 export default App;

@@ -10,3 +10,38 @@ body{
   justify-content: center;
   height: 100vh;
 }
+
+.block{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.question {
+  display: flex;  
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+button {
+  width: 100px;
+  height: 70px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.question.green {
+  background-color: green;
+}
+
+.question.red {
+  background-color: red;
+}
