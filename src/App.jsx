@@ -1,8 +1,14 @@
 import React from "react";
-import { QuizList } from "./components/Quiestions";
+import Counter from "./components/Counter";
+import FilteredList from "./components/FilteredList";
 
 function App() {
-  return <QuizList />;
+  return (
+    <div>
+      <Counter />
+      <FilteredList />
+    </div>
+  )
 }
 
 export default App;
