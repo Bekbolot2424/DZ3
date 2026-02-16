@@ -1,12 +1,9 @@
 import React from "react";
-import Counter from "./components/Counter";
-import FilteredList from "./components/FilteredList";
-
+import { FormRegister} from "./components/FormRegister";
 function App() {
   return (
     <div>
-      <Counter />
-      <FilteredList />
+      <FormRegister />
     </div>
   )
 }

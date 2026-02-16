@@ -45,3 +45,4 @@ button {
 .question.red {
   background-color: red;
 }
+@import "tailwindcss";
